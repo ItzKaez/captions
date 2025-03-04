@@ -1,54 +1,24 @@
-# Auto Subtitle Generator
+# Captions
 
-Auto Subtitle Generator is a program that generates subtitles in the format of Instagram and Facebook Reels, YouTube Shorts, and TikTok videos.
+## Description
+This project is designed to generate captions for videos automatically. It utilizes various audio processing techniques to extract speech and convert it into text captions.
 
----
+## Installation
+To install the necessary dependencies, run the following command:
 
-## Installation and Usage
+```bash
+pip install -r requirements.txt
+```
 
-1. If using Git to download the repository, type the following command in your terminal:
-   ```bash
-   git clone https://github.com/zubu007/auto-subtitle-generator.git
-   ```
+## Usage
+To use the caption generator, run the following command:
 
-2. Install [FFmpeg](https://ffmpeg.org):
-   - **Windows:**
-     - Install [Chocolately](https://chocolatey.org/install) and run:
-       ```bash
-       choco install ffmpeg
-       ```
-   - **Linux:**
-     ```bash
-     sudo apt install ffmpeg
-     ```
-       
-3. Install the necessary Python packages in your environment using pip:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   
-4. Run the Python script:
-   - Windows:
-     ```bash
-     python main.py
-     ```
-   - Linux:
-     ```bash
-     python3 main.py
-     ```
+```bash
+python main.py
+```
 
-## TODO
-- [ ] Control number of words shown together with a variable.
-- [ ] Add support for multiple languages.
-- [ ] Add support for multiple video formats.
-- [ ] Add support for multiple video resolutions.
-- [ ] Add option to select font color.
-- [ ] Font size option.
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue.
 
-## Done
-- [x] Create a GUI for the program.
-- [x] Design UI for the program.
-- [x] Create variables for text size and font.
-- [x] Update this read.me to make professional.
-- [x] Add comments to the code.
-
+## License
+This project is licensed under the MIT License.
