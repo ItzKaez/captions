@@ -1,0 +1,6 @@
+opencv-python
+tqdm
+openai-whisper
+moviepy
+customtkinter
+whisper
